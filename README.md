@@ -25,8 +25,8 @@ https://codesandbox.io/s/react-folder-stucture-diro5w
 
 #### 1. JSX ?
 
-- You can write html tag in javascripts
-  `const element = <h1>Hello, {name}</h1>;`
+You can write html tag in javascripts
+`const element = <h1>Hello, {name}</h1>;`
 
 ```sh
 https://medium.com/niawjr/react-the-series-ep1-intro-to-jsx-a2e4b924864a
@@ -35,6 +35,13 @@ https://medium.com/niawjr/react-the-series-ep1-intro-to-jsx-a2e4b924864a
 #### 2. React Hooks ?
 
 - It's allows you to use state and other React features without writing a class
+
+##### Hooks features
+
+- useEffect()
+- useState()
+- useContext()
+- useReducer()
 
 #### 3. Function Components
 
@@ -58,15 +65,18 @@ https://medium.com/niawjr/react-the-series-ep1-intro-to-jsx-a2e4b924864a
 const data = getData = (props) => <div>show data {props} </div>
 ```
 
-### Example
+### Code Example
 
 ```sh
 https://codesandbox.io/s/react-basic-components-j17om4
 ```
 
+This example all included
+
 - useState
-- components based
-- props
-- destructing data
-- spread operators
-- reusable components (Input)
+- Components based
+- Props
+- Destructing data
+- Spread operators
+- Reusable components (Input)
+- Event handler
