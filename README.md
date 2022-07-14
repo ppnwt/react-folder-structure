@@ -55,12 +55,13 @@ const data = getData = (props) => <div>show data {props} </div>
 
 ### Example
 
-- useState()
+```sh
+https://codesandbox.io/s/react-basic-components-j17om4
+```
+
+- useState
 - components based
 - props
 - destructing data
 - spread operators
-
-```sh
-https://codesandbox.io/s/react-basic-components-j17om4
-```
+- reusable components (Input)
