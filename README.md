@@ -26,6 +26,11 @@ https://codesandbox.io/s/react-folder-stucture-diro5w
 #### 1. JSX ?
 
 - You can write html tag in javascripts
+  `const element = <h1>Hello, {name}</h1>;`
+
+```sh
+https://medium.com/niawjr/react-the-series-ep1-intro-to-jsx-a2e4b924864a
+```
 
 #### 2. React Hooks ?
 
@@ -35,23 +40,23 @@ https://codesandbox.io/s/react-folder-stucture-diro5w
 
 `const data = getData = () => <div>show data </div>`
 
+##### Hooks features
+
+- useEffect()
+- useState()
+- useContext()
+- useReducer()
+
 #### 4.State Management
 
 - useState
-- Redux
+- Redux (Advanced)
 
 #### 5. Props
 
 ```
 const data = getData = (props) => <div>show data {props} </div>
 ```
-
-#### 6. Hooks features
-
-- useEffect()
-- useState()
-- useContext()
-- useReducer()
 
 ### Example
 
