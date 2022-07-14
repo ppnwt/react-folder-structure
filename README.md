@@ -42,7 +42,9 @@ https://codesandbox.io/s/react-folder-stucture-diro5w
 
 #### 5. Props
 
-`const data = getData = (props) => <div>show data {props} </div>`
+```
+const data = getData = (props) => <div>show data {props} </div>
+```
 
 #### 6. Hooks features
 
@@ -58,4 +60,7 @@ https://codesandbox.io/s/react-folder-stucture-diro5w
 - props
 - destructing data
 - spread operators
-  `https://codesandbox.io/s/react-basic-components-j17om4`
+
+```sh
+https://codesandbox.io/s/react-basic-components-j17om4
+```
