@@ -3,6 +3,15 @@
 - React js is frontend library of javascripts
 - Components-Based
 
+## Why react?
+
+- Flexibility
+  -- the React code is easier to maintain and is flexible due to its modular structure.
+- Performance
+  -- The core of the framework offers a virtual DOM program and server-side rendering
+- Reusable Components
+  -- It saves time for developers as they don’t have to write various codes for the same features
+
 ## Javascripts need to know before learning react.js
 
 - Callback Functions in JavaScript, map(), filter(), setTimeout()
