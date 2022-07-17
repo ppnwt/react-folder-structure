@@ -62,6 +62,8 @@ https://medium.com/niawjr/react-the-series-ep1-intro-to-jsx-a2e4b924864a
 - useState()
 - useContext()
 - useReducer()
+- useTransition (v.18)
+- useDeferredValue (v.18)
 
 #### 4.State Management
 
