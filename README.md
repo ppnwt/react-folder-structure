@@ -24,6 +24,24 @@
 - Fetch API & Errors in JavaScript
 - Async/Await in JavaScript
 
+## Tools
+
+- macOS, Ubuntu
+- VS Code, Atom, etc. (any whatever you want)
+- Node v.16+
+- npm
+
+## VSCODE extensions
+
+- Atom keymap
+- Eslint
+- Prettier Codeformatter
+- Gitlens
+- Path Intellisense
+- ES7+ React/Redux/React-Native snippets
+- HTML CSS Support
+- Simple React Snippets
+
 ## Folder Structure
 
 This example below is only my designed, you can adjust them whatever you want.
