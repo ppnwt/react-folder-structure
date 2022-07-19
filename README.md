@@ -41,6 +41,7 @@
 - ES7+ React/Redux/React-Native snippets
 - HTML CSS Support
 - Simple React Snippets
+- vscode-icons
 
 ## Folder Structure
 
@@ -93,6 +94,11 @@ https://medium.com/niawjr/react-the-series-ep1-intro-to-jsx-a2e4b924864a
 ```
 const data = getData = (props) => <div>show data {props} </div>
 ```
+
+#### 6. Deployment
+
+- vercel
+- self hosting
 
 ### Code Example
 
