@@ -4,10 +4,14 @@ pipeline {
       nodejs '16.15.1'
     }
     stages {
+        stage('npm install') { 
+            steps {
+                sh 'npm install'
+            }
+        }
         stage('Build') { 
             steps {
-                sh 'npm -v'
-                sh 'node -v'
+                sh 'npm build'
             }
         }
     }
