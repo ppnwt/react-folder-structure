@@ -9,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Get started with react fundamentals
+          Test CI/CD
         </p>
       </header>
     </div>
