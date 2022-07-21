@@ -10,7 +10,7 @@ function App() {
         <p>
           Get started with react fundamentals <br />
           Test CI/CD <br />
-          Jenkins, webhook Github  <br />
+          Jenkins, Webhook Github, Start with PM2  <br />
         </p>
       </header>
     </div>

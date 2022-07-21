@@ -9,6 +9,11 @@ pipeline {
                 sh 'npm install'
             }
         }
+        stage('npm build') { 
+            steps {
+                sh 'npm run build'
+            }
+        }
         stage('Run test') { 
             steps {
                 echo '####THIS STEP RUN TEST'
