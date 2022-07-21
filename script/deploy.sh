@@ -2,7 +2,7 @@
 ssh root@139.180.141.237 <<EOF
  cd ~/react-folder-structure
  git pull
- npm install —-production && npm run build
+ npm install && npm run build
  pm2 restart all
  exit
 EOF
