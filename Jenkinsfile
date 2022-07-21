@@ -9,9 +9,9 @@ pipeline {
                 sh 'npm install'
             }
         }
-        stage('Build') { 
+        stage('Run test') { 
             steps {
-                sh 'npm run build'
+                echo '####THIS STEP RUN TEST'
             }
         }
         stage('Deploy') { 
