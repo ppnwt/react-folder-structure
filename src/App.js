@@ -8,8 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Get started with react fundamentals
-          Test CI/CD
+          Get started with react fundamentals <br />
+          Test CI/CD <br />
+          Jenkins
         </p>
       </header>
     </div>
