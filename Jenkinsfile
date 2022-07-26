@@ -70,7 +70,7 @@ pipeline {
           script{
               sh script: '''
               cd $WORKSPACE &&
-              scp my_app.tar.gz root@139.180.141.237:/root
+              sshpass -p "9hL?usEjP4%XN*=N" scp my_app.tar.gz root@139.180.141.237:/root
               '''
           }
       }
