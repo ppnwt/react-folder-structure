@@ -23,7 +23,7 @@ pipeline {
            sh script: '''
               cd $WORKSPACE/
               '''
-           git branch: 'main', credentialsId: 'jenkins-git-credentials', url: 'https://gitserver.thailife.com/dev-core/solar_rpt_web.git'
+           git branch: 'main', url: 'https://github.com/newzpanuwat/react-folder-structure'
         }
       }
     }
@@ -46,7 +46,7 @@ pipeline {
               sh script: '''
               
               cd $WORKSPACE/
-              npm run build:dev
+              npm run build
 
               '''
           }
@@ -57,9 +57,9 @@ pipeline {
       steps {
           script{
               sh script: '''
-              cd $WORKSPACE && mkdir solar_build && ls -l
-              mv .next/ package.json ./solar_build/ && cd solar_build &&  ls -l
-              cd .. && ls -l && tar cvzf solar_build.tar.gz ./solar_build/ && ls -l
+              cd $WORKSPACE && mkdir my_app && ls -l
+              mv .next/ package.json ./my_app/ && cd my_app &&  ls -l
+              cd .. && ls -l && tar cvzf my_app.tar.gz ./my_app/ && ls -l
               '''
           }
       }
@@ -70,7 +70,7 @@ pipeline {
           script{
               sh script: '''
               cd $WORKSPACE
-              scp solar_build.tar.gz root@139.180.141.237:/
+              scp my_app.tar.gz root@139.180.141.237:/
               '''
           }
       }
