@@ -58,7 +58,7 @@ pipeline {
           script{
               sh script: '''
               cd $WORKSPACE && mkdir my_app && ls -l
-              mv .next/ package.json ./my_app/ && cd my_app &&  ls -l
+              mv .build/ package.json ./my_app/ && cd my_app &&  ls -l
               cd .. && ls -l && tar cvzf my_app.tar.gz ./my_app/ && ls -l
               '''
           }
@@ -70,7 +70,7 @@ pipeline {
           script{
               sh script: '''
               cd $WORKSPACE
-              scp my_app.tar.gz root@139.180.141.237:/
+              scp my_app.tar.gz root@139.180.141.237:/root
               '''
           }
       }
