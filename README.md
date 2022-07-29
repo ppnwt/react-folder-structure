@@ -68,37 +68,29 @@ https://medium.com/niawjr/react-the-series-ep1-intro-to-jsx-a2e4b924864a
 
 - useEffect()
 - useState()
-- useContext()
-- useReducer()
 
-#### 3. Function Components
+##### Optional
 
-`const data = getData = () => <div>show data </div>`
-
-##### Hooks features
-
-- useEffect()
-- useState()
 - useContext()
 - useReducer()
 - useTransition (v.18)
 - useDeferredValue (v.18)
 
-#### 4.State Management
+#### 3. Function Components
 
-- useState
-- Redux (Advanced)
+`const data = getData = () => <div>show data </div>`
 
-#### 5. Props
+
+#### 4. Props
 
 ```
 const data = getData = (props) => <div>show data {props} </div>
 ```
 
-#### 6. Deployment
+#### 5. Deployment
 
-- vercel
-- self hosting
+- Vercel
+- Jenkins deployment for VPS
 
 ### Code Example
 

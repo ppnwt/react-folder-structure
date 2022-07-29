@@ -11,7 +11,6 @@ function App() {
           Get started with react fundamentals <br />
           Test CI/CD <br />
           Jenkins, Webhook Github, Start with PM2
-          test 222
             <br />
         </p>
       </header>
